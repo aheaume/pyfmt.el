@@ -29,6 +29,11 @@
 
 ;;; Code:
 
+(defgroup pyfmt nil
+  "Emacs interface to pyfmt"
+  :prefix "-pyfmt"
+  :group 'tools)
+
 (defcustom pyfmt-command "pyfmt"
   "The 'pyfmt' command."
   :type 'string
