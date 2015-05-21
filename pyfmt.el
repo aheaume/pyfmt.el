@@ -1,4 +1,4 @@
-;;; pyfmt.el --- Emacs interface to pyfmt -*- lexical-binding: t -*-
+;;; pyfmt.el --- Emacs interface to pyfmt
 
 ;; Copyright (C) 2015 Alexandre Héaumé.
 
