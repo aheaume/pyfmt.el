@@ -1,4 +1,4 @@
-;;; pyfmt.el --- Python code formatter -*- lexical-binding: t -*-
+;;; pyfmt.el --- Emacs interface to pyfmt -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2015 Alexandre Héaumé.
 
