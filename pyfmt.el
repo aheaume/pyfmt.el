@@ -43,9 +43,9 @@
 (defun pyfmt ()
   "Format the current buffer according to the pyfmt tool."
   (interactive)
-  (if (executable-find pyfmt-command)
-      (call-process-region (point-min) (point-max) pyfmt-command t t nil (buffer-file-name))
-    (message (format "Can't find %s in the exec path." pyfmt-command))))
+  (unless (executable-find pyfmt-command)
+    (error "Can't find %s in the exec path" pyfmt-command))
+  (call-process-region (point-min) (point-max) pyfmt-command t t nil (buffer-file-name)))
 
 (provide 'pyfmt)
 
