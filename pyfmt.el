@@ -31,7 +31,7 @@
 
 (defgroup pyfmt nil
   "Emacs interface to pyfmt"
-  :prefix "-pyfmt"
+  :prefix "pyfmt-"
   :group 'tools)
 
 (defcustom pyfmt-command "pyfmt"
