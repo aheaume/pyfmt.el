@@ -34,6 +34,7 @@
   :type 'string
   :group 'pyfmt)
 
+;;;###autoload
 (defun pyfmt ()
   "Format the current buffer according to the pyfmt tool."
   (interactive)
