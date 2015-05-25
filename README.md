@@ -6,7 +6,7 @@ Emacs interface to [pyfmt](https://github.com/Psycojoker/pyfmt)
 
 ## Install
 
-It's available on [Melpa](melpa.org):
+It's available on [MELPA](http://melpa.org):
 
     M-x package-install pyfmt
 
